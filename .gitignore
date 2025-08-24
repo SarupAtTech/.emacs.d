@@ -1,0 +1,15 @@
+.cache
+auto-save-list
+emojis
+games/*
+!games/.gitkeep
+inits-enabled/*
+!inits-enabled/.gitkeep
+lsp-cache
+private/*
+!private/.gitkeep
+request
+straight
+tramp
+transient
+url
