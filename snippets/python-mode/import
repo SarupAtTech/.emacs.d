@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: import
+# key: import
+# binding: direct-keybinding
+# --
+import ${1:lib}${2: as ${3:alias}}${4:
+}$0

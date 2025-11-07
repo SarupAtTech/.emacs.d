@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: document
+# key: document
+# binding: direct-keybinding
+# --
+"""$0
+"""
