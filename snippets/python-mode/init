@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: init
+# key: init
+# --
+def __init__(self):
+    $0

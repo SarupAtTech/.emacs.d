@@ -1,0 +1,5 @@
+# key: with
+# name: with
+# --
+with ${1:functions}${2: as ${3:name}}:
+     $0
