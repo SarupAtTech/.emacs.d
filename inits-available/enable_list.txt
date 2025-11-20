@@ -4,6 +4,7 @@
 00-display-line-number-mode.el
 00-editorconfig.el
 00-function.el
+00-gpg.el
 00-keybind.el
 00-scratch-buffer.el
 00-title-time.el
