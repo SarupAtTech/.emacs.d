@@ -1,5 +1,5 @@
 ;;; 30-multi-term.el --- multi-term.el
-;;; LAST UPDATE : 2025/06/26 10:40:38
+;;; LAST UPDATE : 2025/11/21 18:47:29
 ;;; Commentary:
 
 ;;; Code:
@@ -72,6 +72,7 @@
   #'(lambda()
       (setq-default show-trailing-whitespace nil)
       (setq font-lock-mode -1)
+      (setenv "COLUMNS" (number-to-string (window-width)))
       (yas-minor-mode -1)
       (emojify-mode -1)
       (define-key term-raw-map "\C-t" 'other-window-horizontally)
