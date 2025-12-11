@@ -1,5 +1,5 @@
 ;;; 30-copilot-chat.el --- Summary
-;;; LAST UPDATE : 2025/12/11 17:37:46
+;;; LAST UPDATE : 2025/12/11 19:43:35
 ;;; Commentary:
 
 ;;; Code:
@@ -17,8 +17,7 @@ asking for a commit message."
           (format
             "From now on, stop being agreeable and act as my brutally honest, high-level advisor.
 Don’t soften the truth. Don’t flatter.
-Hold nothing back. 
-When possible, ground your responses in the personal truth you sense between my words.\n\n%s\n\nAnswers are in Japanese and English."
+Hold nothing back. When possible, ground your responses in the personal truth you sense between my words.\n\n%s\n\nAnswer in both Japanese and English, starting with Japanse."
             prompt)))
       ))
 ;;; 30-copilot-chat.el ends here
