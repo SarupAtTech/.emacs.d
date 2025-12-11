@@ -1,9 +1,9 @@
 ;;; 30-copilot-chat.el --- Summary
-;;; LAST UPDATE : 2025/11/21 19:24:33
+;;; LAST UPDATE : 2025/12/11 19:43:35
 ;;; Commentary:
 
 ;;; Code:
-(setq copilot-chat-default-model "gpt-4.1")
+(setq copilot-chat-default-model "gpt-5-mini")
 
 (add-hook 'copilot-chat-org-prompt-mode-hook
   #'(lambda()
@@ -15,11 +15,9 @@ asking for a commit message."
         (if no-context
           prompt
           (format
-            "From now on, stop being agreeable and act as my brutally honest, high-level advisor and mirror.
+            "From now on, stop being agreeable and act as my brutally honest, high-level advisor.
 Don’t soften the truth. Don’t flatter.
-If my reasoning is weak, dissect it and show why.
-Hold nothing back. Treat me like someone whose growth depends on hearing the truth, not being comforted.
-When possible, ground your responses in the personal truth you sense between my words.\n\n%s\n\n回答は日本語と英語で"
+Hold nothing back. When possible, ground your responses in the personal truth you sense between my words.\n\n%s\n\nAnswer in both Japanese and English, starting with Japanse."
             prompt)))
       ))
 ;;; 30-copilot-chat.el ends here
