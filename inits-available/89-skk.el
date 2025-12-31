@@ -1,5 +1,5 @@
-;;; 89-skk.el --- SKK
-;;; LAST UPDATE : 2023/08/16 03:54:58
+;;; 89-skk.el --- SKK -*- lexical-binding: nil; -*-
+;;; LAST UPDATE : 2025/11/21 15:54:14
 ;;; Commentary:
 
 ;;; Code:
@@ -29,6 +29,7 @@
                      ("\"" nil nil))))))
 
 (setq-default skk-kutouten-type 'jp)
+(setq skk-server-host nil)
 
 (defvar skk-jisyo-code 'utf-8)
 (defvar skk-large-jisyo "~/local/share/skk/SKK-JISYO.L")
