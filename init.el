@@ -1,6 +1,6 @@
 ;;; initl.el --- init.el
 ;;; Commentary:
-;; LAST UPDATE : 2025/11/21 15:37:53
+;; LAST UPDATE : 2026/01/15 15:53:59
 
 ;;; Code:
 (add-to-list 'load-path "~/.emacs.d/elisp/")
@@ -24,6 +24,14 @@
 
 (straight-use-package 'use-package)
 (setq straight-use-package-by-default t)
+
+
+(straight-use-package
+  '(auctex
+     :type git
+     :host github
+     :repo "SarupAtTech/auctex"
+     :tag "auctex-14.1.0"))
 
 (straight-use-package
   '(anzu
