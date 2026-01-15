@@ -1,13 +1,11 @@
-;; LAST UPDATE : 2016/03/31
-;; linux-auctex.el
+;;; linux-00-auctex.el --- setting auctex
+;;; Commentary:
+;;; LAST UPDATE : 2026/01/15 15:53:29
 
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; latexMk
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(auctex-latexmk-setup)
+;;; Code:
 
-
+;; (auctex-latexmk-setup)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; AUCTeX
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -127,23 +125,23 @@
 ;;
 (setq kinsoku-limit 10)
 
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Other Settings
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (setq auto-mode-alist
       (append '(
-		("\\.tex$" . japanese-latex-mode)
-		("\\.ltx$" . japanese-latex-mode)
-		)
-	      auto-mode-alist))
+                ("\\.tex$" . japanese-latex-mode)
+                ("\\.ltx$" . japanese-latex-mode)
+                )
+              auto-mode-alist))
 (setq tex-default-mode 'japanese-latex-mode)
 
 ;; latex-mode
 (add-hook 'LaTeX-mode-hook
-	  '(lambda()
-	     (flymake-mode-off)
-	     (local-unset-key (kbd "\C-w"))
-	     (setq tex-default-mode 'japanese-latex-mode)
-	     (setq japanese-LaTeX-default-style "jsarticle")
-	     ))
+          '(lambda()
+             (flymake-mode-off)
+             (local-unset-key (kbd "\C-w"))
+             (setq tex-default-mode 'japanese-latex-mode)
+             (setq japanese-LaTeX-default-style "jsarticle")
+             ))
+;;; linux-00-auctex.el ends here
