@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# LAST UPDATE : 2025/08/25 07:08:16
+# LAST UPDATE : 2026/01/20 16:59:58
 import getpass
+import platform
 from pathlib import Path
 
 if __name__ == "__main__":
@@ -16,6 +17,9 @@ if __name__ == "__main__":
             filenames = [filename.strip() for filename in f.readlines()]
 
         for filename in filenames:
+            if filename.lower().startswith("linux") and platform.system() != "Linux":
+                print(f"{filename} different system, skipped.", end="\n")
+                continue
             dst = enabled_dir / filename
             src = available_dir / filename
             if not dst.exists():
@@ -23,6 +27,25 @@ if __name__ == "__main__":
                 print(f"{filename} link created.", end="\n")
             else:
                 print(f"{filename} existed, skipped.", end="\n")
+                continue
+
+            if "auctex" in filename:
+                latexmkrc_filename = ".latexmkrc"
+                latexmkrc = Path("/home") / user_name / latexmkrc_filename
+
+                if not latexmkrc.exists():
+                    contents = "\n".join(
+                        [
+                            r'$kanji    = "-kanji=$ENV{\"LATEXENC\"}" if defined $ENV{"LATEXENC"};',
+                            '$latex    = "platex $kanji";',
+                            '$bibtex   = "pbibtex $kanji";',
+                            '$dvipdf   = "dvipdfmx -o %D %S";',
+                            "$pdf_mode = 3;",
+                            "",
+                        ]
+                    )
+                    latexmkrc.write_text(contents)
+                    print(f"{latexmkrc} created.", end="\n")
 
     except Exception as e:
         print(e, end="\n")
