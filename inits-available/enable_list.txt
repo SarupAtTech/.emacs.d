@@ -38,3 +38,4 @@
 40-yasnippet.el
 89-skk.el
 90-mode-name.el
+linux-00-auctex.el
