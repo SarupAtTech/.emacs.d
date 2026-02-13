@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: case
+# key: case
+# --
+case ${1:cond}:
+$0
