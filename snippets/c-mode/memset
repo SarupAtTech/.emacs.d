@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: memset
+# key: memset
+# --
+memset(${1:void *s}, ${2:int c}, ${3:size_t n})${0:;}

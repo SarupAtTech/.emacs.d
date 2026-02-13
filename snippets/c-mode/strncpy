@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: strncpy
+# key: strncpy
+# --
+strncpy(${1:char *dest}, ${2:const char *src}, ${3:size_t n})${4:;}$0

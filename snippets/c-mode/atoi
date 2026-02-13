@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: atoi
+# key: atoi
+# --
+atoi(${1:const char *nptr})${2:;}$0

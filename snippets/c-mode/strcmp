@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: strcmp
+# key: strcmp
+# --
+strcmp(${1:const char *s1}, ${2:const char *s2})${3:;}$0
