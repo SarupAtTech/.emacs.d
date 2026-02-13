@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: rsa
+# key: rsa
+# binding: direct-keybinding
+# --
+#include <openssl/rsa.h>
+$0

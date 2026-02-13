@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: pthread_create
+# key: pthread_create
+# --
+pthread_create(${1:pthread_t * thread}, ${2:pthread_attr_t * attr}, ${3:void *(*start_routine)(void *)}, ${4:void *arg})${5:;}$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: strcpy
+# key: strcpy
+# binding: direct-keybinding
+# --
+strcpy(${1:char *dest},${2:const char *src});$0
