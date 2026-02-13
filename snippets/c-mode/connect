@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: connect
+# key: connect
+# --
+connect(${1:int sockfd}, ${2:const struct sockaddr *addr},
+		${3:sockelen_t addrlen})${0:;}

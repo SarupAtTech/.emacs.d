@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: sprintf
+# key: sprintf
+# binding: direct-keybinding
+# --
+sprintf(${1:char *str}, ${2:const char *format}, ${3:...})${4:;}$0

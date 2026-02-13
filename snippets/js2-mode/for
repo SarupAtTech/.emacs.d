@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: for
+# key: for
+# --
+for (${1:let ${2:i} = 0}; ${3:$2${4: < 0}}; ${5:$2${6:++}}) {
+    ${7:statement}${8:;}
+}$0

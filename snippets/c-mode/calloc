@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: calloc
+# key: calloc
+# --
+calloc(${1:size_t nmemb}, ${2:size_t size})${3:;}$0
