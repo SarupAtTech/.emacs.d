@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: user_include
+# key: INCLUDE
+# --
+#include "$0"

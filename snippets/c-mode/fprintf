@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: fprintf
+# key: fprintf
+# binding: direct-keybinding
+# --
+fprintf(${1:FILE *stream},${2:const char *format}${3:, ...})${4:;}

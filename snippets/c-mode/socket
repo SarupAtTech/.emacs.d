@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: socket
+# key: socket
+# --
+socket(${1:int domain}, ${2:int type}, ${3:int protocol})${0:;}

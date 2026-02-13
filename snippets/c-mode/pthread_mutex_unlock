@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: pthread_mutex_unlock
+# key: pthread_mutex_unlock
+# --
+pthread_mutex_unlock(${1:pthread_mutex_t *mutex})${2:;}$0
