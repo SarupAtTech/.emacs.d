@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: perror
+# key: perror
+# --
+perror(${1:const char *s})${0:;}

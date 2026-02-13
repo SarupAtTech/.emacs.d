@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: fscanf
+# key: fscanf
+# --
+fscanf(${1:FILE *stream}, ${2:const char *format}, ${3:...})${4:;}$0
