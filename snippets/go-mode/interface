@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: interface
+# key: interface
+# --
+type ${1:name} interface {
+     $0
+}
