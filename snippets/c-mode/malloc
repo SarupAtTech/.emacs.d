@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: malloc
+# key: malloc
+# --
+malloc(${1:size_t size})${2:;}$0

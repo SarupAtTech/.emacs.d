@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: strlen
+# key: strlen
+# --
+strlen(${1:const char *s})${2:;}$0

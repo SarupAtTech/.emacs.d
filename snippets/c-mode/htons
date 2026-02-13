@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: htons
+# key: htons
+# --
+htons(${1:unit16_t hostshort})${0:;}

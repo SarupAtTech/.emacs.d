@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: bind
+# key: bind
+# --
+bind(${1:int sockfd}, ${2:const struct sockaddr *addr},${3:socklen_t addrlen})${4:;}$0

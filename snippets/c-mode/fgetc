@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: fgetc
+# key: fgetc
+# binding: direct-keybinding
+# --
+fgetc(${1:FILE *stream});$0
