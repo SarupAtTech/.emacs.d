@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: foreach
+# key: foreach
+# --
+foreach (${1:$arr} as ${2:${3:$key} => }${4:$value})
+{
+	$5
+}$0
