@@ -1,5 +1,5 @@
 ;;; 30-vterm.el --- Summary
-;;; LAST UPDATE : 2025/12/12 01:14:25
+;;; LAST UPDATE : 2026/02/15 22:18:44
 ;;; Commentary:
 
 ;;; Code:
@@ -157,6 +157,16 @@ Installs a process sentinel and a buffer-local kill-buffer-hook."
 
 ;; Enable for all vterm buffers by default
 (add-hook 'vterm-mode-hook #'my/vterm-enable-auto-save)
+(add-hook 'vterm-mode-hook
+  #'(lambda ()
+      (display-line-numbers-mode 0)
+      (setq-local display-line-numbers nil)
+      (define-key vterm-mode-map [(C t)] 'other-window-horizontally)
+      (define-key vterm-mode-map [(M t)] 'other-window-vertically)
+      (define-key vterm-mode-map [(M q)] 'delete-window)
+      (define-key vterm-mode-map [(C h)] 'vterm-send-backspace)
+      (define-key vterm-mode-map [(C u)] 'vterm--self-insert)
+      ))
 
 (provide 'my-vterm-autosave)
 
