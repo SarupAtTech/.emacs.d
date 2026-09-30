@@ -6,6 +6,7 @@ games/*
 inits-enabled/*
 !inits-enabled/.gitkeep
 lsp-cache
+!private/w3m/.gitkeep
 private/*
 !private/.gitkeep
 request
