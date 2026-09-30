@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: fgets
+# key: fgets
+# binding: direct-keybinding
+# --
+fgets(${1:char *s},${2:int size},${3:FILE *stream});$0

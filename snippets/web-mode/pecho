@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: pecho
+# key: pecho
+# --
+<?= $0 ?>

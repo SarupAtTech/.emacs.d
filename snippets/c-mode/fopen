@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: fopen
+# key: fopen
+# binding: direct-keybinding
+# --
+fopen(${1:const char *path},"${2:const char *mode}")${3:;}$0

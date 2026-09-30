@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: pthread_detach
+# key: pthread_detach
+# --
+pthread_detach(${1:pthread_t th})${2:;}$0

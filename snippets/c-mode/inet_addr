@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: inet_addr
+# key: inet_addr
+# --
+inet_addr(${1:const char *cp})${0:;}

@@ -1,0 +1,10 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: main
+# key: main
+# binding: direct-keybinding
+# --
+int main(${1:int argc, char *argv[]})
+{
+    $0
+    return 0;
+}

@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: scanf
+# key: scanf
+# --
+scanf("${const char *format, ...}"${, &pointer});

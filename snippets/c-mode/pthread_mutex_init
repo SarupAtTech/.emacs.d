@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: pthread_mutex_init
+# key: pthread_mutex_init
+# --
+pthread_mutex_init(${1:pthreadmutex_t *mutex}, ${2:const pthreadmutexattr_t *mutexattr})${3:;}$0

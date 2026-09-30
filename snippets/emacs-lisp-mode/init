@@ -1,0 +1,8 @@
+# key: init
+# name: init
+# --
+;;; ${1:package-name} --- ${2:Summary}
+;;; Commentary:
+;; LAST UPDATE : 2017/04/30
+
+;;; $1 ends here

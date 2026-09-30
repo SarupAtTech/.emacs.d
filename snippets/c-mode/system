@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: system
+# key: system
+# --
+system(${1:const char *command});$0
