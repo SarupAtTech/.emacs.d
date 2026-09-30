@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: strtok
+# key: strtok
+# --
+strtok(${1:char *str}, ${2:const char *delim})${3:;}$0
