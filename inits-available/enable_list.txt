@@ -6,6 +6,7 @@
 00-function.el
 00-gpg.el
 00-keybind.el
+00-op.el
 00-scratch-buffer.el
 00-title-time.el
 00-windows.el
