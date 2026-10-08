@@ -1,5 +1,5 @@
 ;;; 30-vterm.el --- Summary
-;;; LAST UPDATE : 2026/02/15 22:18:44
+;;; LAST UPDATE : 2026/07/01 10:41:16
 ;;; Commentary:
 
 ;;; Code:
@@ -18,7 +18,7 @@
   :type 'boolean
   :group 'my-vterm-autosave)
 
-(defcustom my/vterm-save-max-bytes 5000000
+(defcustom my/vterm-save-max-bytes 50000000000
   "If session content is larger than this, keep only the tail (bytes)."
   :type 'integer
   :group 'my-vterm-autosave)
