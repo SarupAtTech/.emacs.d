@@ -1,5 +1,5 @@
-;;; 30-migemo.el --- migemo
-;;; LAST UPDATE : 2023/08/15 18:37:05
+;;; 30-migemo.el --- migemo  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:14:16
 ;;; Commentary:
 
 ;;; Code:

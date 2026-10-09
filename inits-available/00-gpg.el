@@ -1,5 +1,5 @@
-;;; 00-gpg.el --- 00-gpg.el
-;;; LAST UPDATE : 2024/05/02 15:29:31
+;;; 00-gpg.el --- 00-gpg.el  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:08:59
 ;;; Commentary:
 
 ;;; Code:

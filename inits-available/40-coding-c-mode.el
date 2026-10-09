@@ -1,6 +1,6 @@
-;;; 40-coding-c-mode.el --- c-mode
+;;; 40-coding-c-mode.el --- c-mode  -*- lexical-binding: t; -*-
 ;;; Commentary:
-;;; LAST UPDATE : 2023/04/14 17:43:20
+;;; LAST UPDATE : 2026/10/09 10:17:12
 
 ;;; Code:
 (add-hook 'c-mode-common-hook

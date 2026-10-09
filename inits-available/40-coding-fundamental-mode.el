@@ -1,6 +1,6 @@
-;;; 40-coding-fundamental-mode.el --- coding style for fundamental-mode
+;;; 40-coding-fundamental-mode.el --- coding style for fundamental-mode  -*- lexical-binding: t; -*-
 ;;; Commentary:
-;;; LAST UPDATE : 2023/04/14 16:16:40
+;;; LAST UPDATE : 2026/10/09 10:18:18
 
 ;;; Code:
 (add-hook 'Fundamental-mode

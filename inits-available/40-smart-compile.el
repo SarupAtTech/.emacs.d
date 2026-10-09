@@ -1,9 +1,9 @@
-;; LAST UPDATE : 2015/05/01
-;; smart-compile.el
+;;; 40-smart-compile.el --- smart-compile  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:10:16
+;;; Commentary:
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; smart-compile
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Code :
+
 (global-set-key "\C-cc" 'smart-compile)
 (require 'smart-compile)
 
@@ -13,3 +13,4 @@
 (setq smart-compile-alist
       (append
        '(("\\.c" . "gcc -g -O2 %f -lm -o %n"))))
+;;; 40-smart-compile.el ends here

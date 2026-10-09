@@ -1,5 +1,5 @@
-;;; 29-smart-chr.el --- smartchr.el
-;;; LAST UPDATE : 2025/06/30 00:18:54
+;;; 29-smart-chr.el --- smartchr.el  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:13:15
 ;;; Commentary:
 
 ;;; Code:

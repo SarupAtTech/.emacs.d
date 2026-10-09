@@ -1,5 +1,5 @@
-;;; 30-calfw.el --- calfw
-;;; LAST UPDATE : 2023/08/15 18:33:30
+;;; 30-calfw.el --- calfw  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:13:33
 ;;; Commentary:
 
 ;;; Code:

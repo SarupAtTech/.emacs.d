@@ -1,6 +1,6 @@
-;;; 40-coding-python-mode.el --- setting python mode
+;;; 40-coding-python-mode.el --- setting python mode  -*- lexical-binding: t; -*-
 ;;; Commentary:
-;;; LAST UPDATE : 2023/08/16 04:54:14
+;;; LAST UPDATE : 2026/10/09 10:23:54
 
 ;;; Code:
 

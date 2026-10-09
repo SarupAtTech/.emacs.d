@@ -1,5 +1,5 @@
-;;; 31-company-fuzzy --- compay fuzzy
-;;; LAST UPDATE : 2023/08/16 06:18:35
+;;; 31-company-fuzzy --- compay fuzzy  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:15:20
 ;;; Commentary:
 
 ;;; Code:

@@ -1,5 +1,5 @@
-;;; 00-linum-mode.el --- linum mode
-;;; LAST UPDATE : 2025/06/29 07:27:59
+;;; 00-linum-mode.el --- linum mode  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:12:36
 ;;; Commentary:
 
 ;;; Code:

@@ -1,6 +1,6 @@
-;;; 40-coding-js2-mode.el --- js2-mode setting
+;;; 40-coding-js2-mode.el --- js2-mode setting  -*- lexical-binding: t; -*-
 ;;; Commentary:
-;;; LAST UPDATE : 2025/06/29 23:41:30
+;;; LAST UPDATE : 2026/10/09 10:25:30
 
 ;;; Code:
 

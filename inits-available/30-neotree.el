@@ -1,5 +1,5 @@
-;;; 30-neotree.el --- neo tree
-;;; LAST UPDATE : 2023/08/15 18:38:50
+;;; 30-neotree.el --- neo tree  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:14:23
 ;;; Commentary:
 
 ;;; Code:

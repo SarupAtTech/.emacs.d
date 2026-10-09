@@ -1,5 +1,5 @@
-;;; 00-title-time.el --- title time
-;;; LAST UPDATE : 2023/08/15 18:28:18
+;;; 00-title-time.el --- title time  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:12:50
 ;;; Commentary:
 
 ;; http://valvallow.blogspot.jp/2011/01/emacs.html 参考

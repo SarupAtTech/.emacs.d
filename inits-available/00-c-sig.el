@@ -1,5 +1,5 @@
-;;; 00-c-sig.el --- c-sig
-;;; LAST UPDATE : 2023/08/15 20:28:47
+;;; 00-c-sig.el --- c-sig  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:08:21
 ;;; Commentary:
 
 ;; http://www.sie.ics.saitama-u.ac.jp/install/c-sig.html 参考
