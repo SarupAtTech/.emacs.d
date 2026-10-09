@@ -1,4 +1,4 @@
-;;; title-time.el --- like display-time but in the title-bar
+;;; title-time.el --- like display-time but in the title-bar  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2001, 2002  Free Software Foundation, Inc.
 

@@ -1,5 +1,5 @@
-;;; 00-woman.el --- woman
-;;; LAST UPDATE : 2023/08/15 20:44:11
+;;; 00-woman.el --- woman  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:13:03
 ;;; Commentary:
 
 ;; http://blog.shibayu36.org/entry/20100503/1272851013

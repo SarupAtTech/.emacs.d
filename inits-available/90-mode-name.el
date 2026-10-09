@@ -1,5 +1,5 @@
-;;; 90-mode-name.el --- mode name
-;;; LAST UPDATE : 2024/08/12 01:05:10
+;;; 90-mode-name.el --- mode name  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:04:49
 ;;; Commentary:
 
 ;; http://www.masteringemacs.org/article/hiding-replacing-modeline-strings 参考

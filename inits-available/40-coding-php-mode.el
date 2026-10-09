@@ -1,6 +1,6 @@
-;;; 40-coding-php-mode.el --- setting php mode
+;;; 40-coding-php-mode.el --- setting php mode  -*- lexical-binding: t; -*-
 ;;; Commentary:
-;;; LAST UPDATE : 2025/06/30 00:16:23
+;;; LAST UPDATE : 2026/10/09 10:25:16
 
 ;; ref http://blog.fusic.co.jp/archives/94
 

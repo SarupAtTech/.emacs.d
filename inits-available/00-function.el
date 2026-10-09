@@ -1,5 +1,5 @@
-;;; 00-function.el --- function
-;;; LAST UPDATE : 2023/08/15 18:24:36
+;;; 00-function.el --- function  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:08:53
 ;;; Commentary:
 
 ;; http://d.hatena.ne.jp/khiker/20090711/emacsfullscreen 参考

@@ -1,6 +1,6 @@
-;;; 30-w3m.el --- w3m
+;;; 30-w3m.el --- w3m  -*- lexical-binding: t; -*-
 ;;; Commentary:
-;;; LAST UPDATE : 2025/12/22 16:36:45
+;;; LAST UPDATE : 2026/10/09 10:15:16
 
 ;;; Code:
 (define-key global-map [(C x)(M f)] 'w3m-find-file)

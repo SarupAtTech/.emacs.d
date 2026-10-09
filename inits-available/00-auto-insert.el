@@ -1,6 +1,6 @@
-;;; 00-auto-insert --- auto-insert
+;;; 00-auto-insert --- auto-insert  -*- lexical-binding: t; -*-
 ;;; Commentary:
-;; LAST UPDATE : 2023/08/15 19:05:09
+;; LAST UPDATE : 2026/10/09 10:08:14
 
 ;;; Code:
 

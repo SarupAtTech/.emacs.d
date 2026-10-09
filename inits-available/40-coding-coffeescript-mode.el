@@ -1,5 +1,9 @@
-;; LAST UPDATE : 2016/03/31
-;; coffeescript-mode.el
+;; 40-coding-coffeescript-mode.el --- coffeescript-mode  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:17:56
+;;; Commentary:
+
+;;; Code:
+
 
 
 ;; coffeescript-mode
@@ -8,3 +12,4 @@
 	     (set (make-local-variable 'tab-width) 2)
 	     (set (make-local-variable 'coffee-tab-width) 2)
 	     ))
+;;; 40-coding-coffeescript-mode.el ends here

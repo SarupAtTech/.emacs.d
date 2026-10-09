@@ -1,6 +1,6 @@
-;;; 40-e2wm.el --- web-mode
+;;; 40-e2wm.el --- web-mode  -*- lexical-binding: t; -*-
 ;;; Commentary:
-;;; LAST UPDATE : 2025/06/29 21:54:51
+;;; LAST UPDATE : 2026/10/09 10:10:52
 
 ;;; Code:
 

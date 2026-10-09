@@ -1,5 +1,5 @@
-;;; 00-keybind.el --- keybind
-;;; LAST UPDATE : 2025/06/29 22:30:55
+;;; 00-keybind.el --- keybind  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:12:31
 ;;; Commentary:
 
 ;;; Code:

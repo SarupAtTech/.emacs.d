@@ -1,5 +1,5 @@
-;;; 00-revive.el --- revive
-;;; LAST UPDATE : 2023/08/15 18:27:30
+;;; 00-revive.el --- revive  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:12:40
 ;;; Commentary:
 
 ;;; Code:
