@@ -1,5 +1,5 @@
-;;; 30-japanese-holidays.el --- japanese holidays
-;;; LAST UPDATE : 2023/08/15 18:36:38
+;;; 30-japanese-holidays.el --- japanese holidays  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:14:13
 ;;; Commentary:
 
 ;;; Code:

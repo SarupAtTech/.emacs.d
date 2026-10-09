@@ -1,5 +1,5 @@
-;;; 31-eglot.el --- eglot
-;;; LAST UPDATE : 2023/08/16 06:29:23
+;;; 31-eglot.el --- eglot  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:15:24
 ;;; Commentary:
 
 ;;; Code:

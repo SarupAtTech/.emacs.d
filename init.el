@@ -1,6 +1,10 @@
-;;; initl.el --- init.el
+;;; initl.el --- init.el  -*- lexical-binding: t; -*-
 ;;; Commentary:
+<<<<<<< Updated upstream
 ;; LAST UPDATE : 2026/01/15 15:53:59
+=======
+;; LAST UPDATE : 2026/10/09 10:59:20
+>>>>>>> Stashed changes
 
 ;;; Code:
 (add-to-list 'load-path "~/.emacs.d/elisp/")
@@ -171,7 +175,7 @@
      :type git
      :host github
      :repo "magit/magit"
-     :tag "v4.3.6"))
+     :tag "v4.3.8"))
 
 (straight-use-package
   '(markdown-mode

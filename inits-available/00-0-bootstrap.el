@@ -1,5 +1,5 @@
-;;; 00-0-bootstrap.el --- bootstrap
-;;; LAST UPDATE : 2025/07/03 02:27:33
+;;; 00-0-bootstrap.el --- bootstrap  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:06:59
 ;;; Commentary:
 
 ;;; Code:
