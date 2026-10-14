@@ -32,6 +32,7 @@
 40-coding-json-mode.el
 40-coding-php-mode.el
 40-coding-python-mode.el
+40-coding-terraform-mode.el
 40-coding-web-mode.el
 40-e2wm.el
 40-flycheck.el
