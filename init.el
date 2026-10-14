@@ -1,6 +1,6 @@
-;;; initl.el --- init.el
+;;; initl.el --- init.el  -*- lexical-binding: t; -*-
 ;;; Commentary:
-;; LAST UPDATE : 2026/01/17 03:14:56
+;; LAST UPDATE : 2026/10/14 15:19:29
 
 ;;; Code:
 (add-to-list 'load-path "~/.emacs.d/elisp/")
@@ -263,6 +263,13 @@
      :host github
      :repo "zenitani/elisp"
      :commit "614407246d71924d3156a337d0879f04691060d5"))
+
+(straight-use-package
+ '(terraform-mode
+   :type git
+   :host github
+   :repo "SarupAtTech/terraform-mode"
+   :tag "1.1.0"))
 
 (straight-use-package
   '(undo-tree
