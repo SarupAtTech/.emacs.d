@@ -6,6 +6,7 @@
 00-function.el
 00-gpg.el
 00-keybind.el
+00-op.el
 00-scratch-buffer.el
 00-title-time.el
 00-windows.el
@@ -27,10 +28,12 @@
 30-w3m.el
 31-eglot.el
 31-mew.el
+35-markdown-mode.el
 40-coding-js2-mode.el
 40-coding-json-mode.el
 40-coding-php-mode.el
 40-coding-python-mode.el
+40-coding-terraform-mode.el
 40-coding-web-mode.el
 40-e2wm.el
 40-flycheck.el
@@ -38,3 +41,4 @@
 40-yasnippet.el
 89-skk.el
 90-mode-name.el
+linux-00-auctex.el

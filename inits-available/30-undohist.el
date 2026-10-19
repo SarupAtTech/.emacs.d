@@ -1,5 +1,5 @@
-;;; 30-undohist.el --- undohist
-;;; LAST UPDATE : 2023/08/15 20:25:02
+;;; 30-undohist.el --- undohist  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:14:57
 ;;; Commentary:
 
 ;;; Code:

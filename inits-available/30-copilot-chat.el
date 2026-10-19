@@ -1,9 +1,9 @@
-;;; 30-copilot-chat.el --- Summary
-;;; LAST UPDATE : 2025/07/31 11:08:39
+;;; 30-copilot-chat.el --- Summary  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:13:56
 ;;; Commentary:
 
 ;;; Code:
-(setq copilot-chat-default-model "gpt-4.1")
+(setq copilot-chat-default-model "gpt-5-mini")
 
 (add-hook 'copilot-chat-org-prompt-mode-hook
   #'(lambda()
@@ -15,7 +15,9 @@ asking for a commit message."
         (if no-context
           prompt
           (format
-            "%s\n\n日本語で"
+            "From now on, stop being agreeable and act as my brutally honest, high-level advisor.
+Don’t soften the truth. Don’t flatter.
+Hold nothing back. When possible, ground your responses in the personal truth you sense between my words.\n\n%s\n\nAnswer in both Japanese and English, starting with Japanse."
             prompt)))
       ))
 ;;; 30-copilot-chat.el ends here

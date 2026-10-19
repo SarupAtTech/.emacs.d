@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: read
+# key: read
+# --
+read(${1:int fd}, ${2:void *buf}, ${3:size_t count});$0

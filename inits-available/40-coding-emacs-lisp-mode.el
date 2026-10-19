@@ -1,5 +1,5 @@
-;;; 40-coding-emacs-lisp-mode.el --- emacs-lisp-mode
-;;; LAST UPDATE : 2023/08/15 19:03:29
+;;; 40-coding-emacs-lisp-mode.el --- emacs-lisp-mode  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:18:12
 ;;; Commentary:
 
 ;;; Code:

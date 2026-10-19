@@ -1,5 +1,5 @@
-;;; 30-aspell.el --- aspell
-;;; LAST UPDATE : 2023/08/15 18:31:46
+;;; 30-aspell.el --- aspell  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:13:22
 ;;; Commentary:
 
 ;;; Code:

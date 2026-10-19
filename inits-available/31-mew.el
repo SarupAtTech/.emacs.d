@@ -1,5 +1,5 @@
-;;; 31-mew.el --- mew
-;;; LAST UPDATE : 2025/07/04 01:38:45
+;;; 31-mew.el --- mew  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:15:44
 ;;; Commentary:
 
 ;; http://www.mew.org/ja/inforelease/mew_1.html 参考

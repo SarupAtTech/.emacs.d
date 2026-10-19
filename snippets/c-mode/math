@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: math
+# key: math
+# binding: direct-keybinding
+# --
+#include <mat.h>
+$0

@@ -1,5 +1,5 @@
-;;; 00-scratch-buffer.el --- scratch buffer
-;;; LAST UPDATE : 2023/08/15 18:27:47
+;;; 00-scratch-buffer.el --- scratch buffer  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:12:45
 ;;; Commentary:
 
 ;;; Code:

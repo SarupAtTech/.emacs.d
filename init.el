@@ -1,6 +1,6 @@
-;;; initl.el --- init.el
+;;; initl.el --- init.el  -*- lexical-binding: t; -*-
 ;;; Commentary:
-;; LAST UPDATE : 2025/07/08 11:26:03
+;; LAST UPDATE : 2026/10/14 15:16:22
 
 ;;; Code:
 (add-to-list 'load-path "~/.emacs.d/elisp/")
@@ -24,6 +24,14 @@
 
 (straight-use-package 'use-package)
 (setq straight-use-package-by-default t)
+
+
+(straight-use-package
+  '(auctex
+     :type git
+     :host github
+     :repo "SarupAtTech/auctex"
+     :tag "auctex-14.1.0"))
 
 (straight-use-package
   '(anzu
@@ -50,14 +58,14 @@
   '(calfw
      :type git
      :host github
-     :repo "kiwanami/emacs-calfw"
+     :repo "SarupAtTech/emacs-calfw"
      :tag "v1.6"))
 
 (straight-use-package
   '(calfw-howm
      :type git
      :host github
-     :repo "kiwanami/emacs-calfw"
+     :repo "SarupAtTech/emacs-calfw"
      :tag "bcfc0c546c3c58e1f635a9a29efdf56c9421a3ce"))
 
 (straight-use-package
@@ -78,7 +86,7 @@
   '(ddskk
      :type git
      :host github
-     :repo "skk-dev/ddskk"
+     :repo "SarupAtTech/ddskk"
      :tag "ddskk-16.3_Kutomatsunai"))
 
 (straight-use-package
@@ -127,7 +135,7 @@
   '(howm
      :type git
      :host github
-     :repo "kaorahi/howm"
+     :repo "SarupAtTech/howm"
      :tag "1.5.4"))
 
 (straight-use-package
@@ -163,7 +171,7 @@
      :type git
      :host github
      :repo "magit/magit"
-     :tag "v4.3.6"))
+     :tag "v4.3.8"))
 
 (straight-use-package
   '(markdown-mode
@@ -255,6 +263,13 @@
      :host github
      :repo "zenitani/elisp"
      :commit "614407246d71924d3156a337d0879f04691060d5"))
+
+(straight-use-package
+ '(terraform-mode
+   :type git
+   :host github
+   :repo "SarupAtTech/terraform-mode"
+   :tag "1.1.0"))
 
 (straight-use-package
   '(undo-tree

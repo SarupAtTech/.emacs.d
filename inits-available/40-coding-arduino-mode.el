@@ -1,9 +1,11 @@
-;; LAST UPDATE : 2016/03/31
-;; arduino-mode.el
+;;; 40-coding-arduino-mode.el --- arduino-mode  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:16:55
+;;; Commentary:
 
-
-;; arduino-mode
+;;; Code:
+
 (add-hook 'arduino-mode-hook
-	  '(lambda()
-	     (local-set-key (kbd "M-q") 'delete-window)
-	     ))
+  '(lambda()
+     (local-set-key (kbd "M-q") 'delete-window)
+     ))
+;;; 40-coding-arduino-mode.el ends here

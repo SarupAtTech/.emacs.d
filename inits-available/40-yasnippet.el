@@ -1,5 +1,8 @@
-;; LAST UPDATE : 2023/08/14 04:47:58
-;; yasnippet.el
+;;; 40-yasnippet.el --- yasnippet  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:07:54
+;;; Commentary:
+
+;;; Code:
 
 (require 'yasnippet)
 
@@ -23,4 +26,4 @@
 
 (setq yas/ignore-filenames-as-triggers t)
 (setq yas/prompt-functions '(yas/dropdown-prompt))
-
+;;; 40-yasnippet.el ends here

@@ -1,6 +1,6 @@
-;;; 30-undo-tree --- undo tree
+;;; 30-undo-tree --- undo tree  -*- lexical-binding: t; -*-
 ;;; Commentary:
-;;; LAST UPDATE : 2023/08/16 03:42:51
+;;; LAST UPDATE : 2026/10/09 10:14:54
 
 ;;; http://qiita.com/takc923/items/c3d64b55fc4f3a3b0838 参考
 ;;; ref https://emacs.stackexchange.com/questions/26993/saving-persistent-undo-to-a-single-directory-alist-format
