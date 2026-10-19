@@ -1,10 +1,6 @@
 ;;; initl.el --- init.el  -*- lexical-binding: t; -*-
 ;;; Commentary:
-<<<<<<< Updated upstream
-;; LAST UPDATE : 2026/01/15 15:53:59
-=======
-;; LAST UPDATE : 2026/10/09 10:59:20
->>>>>>> Stashed changes
+;; LAST UPDATE : 2026/10/19 16:28:59
 
 ;;; Code:
 (add-to-list 'load-path "~/.emacs.d/elisp/")
