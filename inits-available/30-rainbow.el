@@ -1,6 +1,6 @@
-;;; 30-rainbor.el --- rainbow
+;;; 30-rainbor.el --- rainbow  -*- lexical-binding: t; -*-
 ;;; Commentary:
-;; LAST UPDATE : 2023/08/16 03:50:16
+;; LAST UPDATE : 2026/10/09 10:14:45
 
 ;;; Code:
 

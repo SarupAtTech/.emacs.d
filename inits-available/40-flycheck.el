@@ -1,5 +1,5 @@
-;;; 40-flycheck.el --- flycheck
-;;; LAST UPDATE : 2023/08/16 06:17:50
+;;; 40-flycheck.el --- flycheck  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:10:30
 ;;; Commentary:
 
 ;;; Code:

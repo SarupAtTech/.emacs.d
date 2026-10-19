@@ -171,7 +171,7 @@
      :type git
      :host github
      :repo "magit/magit"
-     :tag "v4.3.6"))
+     :tag "v4.3.8"))
 
 (straight-use-package
   '(markdown-mode

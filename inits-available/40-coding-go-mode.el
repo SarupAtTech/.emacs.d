@@ -1,6 +1,6 @@
-;;; 40-coding-go-mode.el --- setting go mode
+;;; 40-coding-go-mode.el --- setting go mode  -*- lexical-binding: t; -*-
 ;;; Commentary:
-;; LAST UPDATE : 2017/04/30
+;; LAST UPDATE : 2026/10/09 10:18:22
 
 
 ;; go-mode

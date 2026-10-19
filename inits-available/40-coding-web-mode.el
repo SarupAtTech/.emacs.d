@@ -1,6 +1,6 @@
-;;; 40-coding-web-mode.el --- web-mode
+;;; 40-coding-web-mode.el --- web-mode  -*- lexical-binding: t; -*-
 ;;; Commentary:
-;;; LAST UPDATE : 2023/08/14 06:58:01
+;;; LAST UPDATE : 2026/10/09 10:11:55
 
 ;;; Code:
 

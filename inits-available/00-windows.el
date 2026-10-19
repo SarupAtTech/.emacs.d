@@ -1,5 +1,5 @@
-;;; 00-windows.el --- windows
-;;; LAST UPDATE : 2025/06/29 22:37:49
+;;; 00-windows.el --- windows  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:12:58
 ;;; Commentary:
 
 ;;; Code:

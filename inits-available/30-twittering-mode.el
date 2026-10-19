@@ -1,5 +1,5 @@
-;;; 30-twittering-mode.el --- twittering mode
-;;; LAST UPDATE : 2023/08/15 20:45:50
+;;; 30-twittering-mode.el --- twittering mode  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:14:50
 ;;; Commentary:
 
 ;;; Code:

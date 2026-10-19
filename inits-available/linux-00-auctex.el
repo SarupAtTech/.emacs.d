@@ -1,6 +1,6 @@
-;;; linux-00-auctex.el --- setting auctex
+;;; linux-00-auctex.el --- setting auctex  -*- lexical-binding: t; -*-
 ;;; Commentary:
-;;; LAST UPDATE : 2026/01/15 15:53:29
+;;; LAST UPDATE : 2026/10/09 10:04:14
 
 ;;; Code:
 
