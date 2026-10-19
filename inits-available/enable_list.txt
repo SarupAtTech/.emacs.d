@@ -28,10 +28,12 @@
 30-w3m.el
 31-eglot.el
 31-mew.el
+35-markdown-mode.el
 40-coding-js2-mode.el
 40-coding-json-mode.el
 40-coding-php-mode.el
 40-coding-python-mode.el
+40-coding-terraform-mode.el
 40-coding-web-mode.el
 40-e2wm.el
 40-flycheck.el
