@@ -1,6 +1,6 @@
 ;;; initl.el --- init.el  -*- lexical-binding: t; -*-
 ;;; Commentary:
-;; LAST UPDATE : 2026/10/14 15:16:22
+;; LAST UPDATE : 2026/10/14 15:19:29
 
 ;;; Code:
 (add-to-list 'load-path "~/.emacs.d/elisp/")
@@ -284,6 +284,13 @@
      :host github
      :repo "emacsorphanage/undohist"
      :tag "0.3.0"))
+
+(straight-use-package
+  '(vterm
+     :type git
+     :host github
+     :repo "SarupAtTech/emacs-libvterm"
+     :commit "a01a2894a1c1e81a39527835a9169e35b7ec5dec"))
 
 (straight-use-package
   '(w3m
