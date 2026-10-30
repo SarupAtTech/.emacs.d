@@ -1,5 +1,5 @@
-;;; 30-multi-term.el --- multi-term.el
-;;; LAST UPDATE : 2025/11/21 18:47:29
+;;; 30-multi-term.el --- multi-term.el  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:14:20
 ;;; Commentary:
 
 ;;; Code:

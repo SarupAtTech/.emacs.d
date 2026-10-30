@@ -1,5 +1,5 @@
-;;; 00-install-lisp.el --- install lisp
-;;; LAST UPDATE : 2023/08/15 18:24:47
+;;; 00-install-lisp.el --- install lisp  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:12:25
 ;;; Commentary:
 
 ;;; Code:

@@ -1,6 +1,6 @@
 ;;; initl.el --- init.el  -*- lexical-binding: t; -*-
 ;;; Commentary:
-;; LAST UPDATE : 2026/10/14 15:19:29
+;; LAST UPDATE : 2026/10/30 18:41:40
 
 ;;; Code:
 (add-to-list 'load-path "~/.emacs.d/elisp/")
@@ -171,7 +171,7 @@
      :type git
      :host github
      :repo "magit/magit"
-     :tag "v4.3.6"))
+     :tag "v4.3.8"))
 
 (straight-use-package
   '(markdown-mode
@@ -214,6 +214,13 @@
      :host github
      :repo "jaypei/emacs-neotree"
      :tag "0.6.0"))
+
+(straight-use-package
+  '(op-mode
+     :type git
+     :host github
+     :repo "SarupAtTech/op-mode"
+     :tag "0.4.1"))
 
 (straight-use-package
   '(php-mode

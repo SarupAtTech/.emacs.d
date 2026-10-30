@@ -1,5 +1,5 @@
-;;; 00-editorconfig.el --- editorconfig
-;;; LAST UPDATE : 2023/08/15 18:24:18
+;;; 00-editorconfig.el --- editorconfig  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:08:47
 ;;; Commentary:
 
 ;;; Code:

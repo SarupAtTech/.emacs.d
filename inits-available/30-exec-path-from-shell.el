@@ -1,5 +1,5 @@
-;;; 30-exec-path-from-shell.el --- exec path from shell
-;;; LAST UPDATE : 2023/08/15 18:34:59
+;;; 30-exec-path-from-shell.el --- exec path from shell  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:14:05
 ;;; Commentary:
 
 ;;; Code:

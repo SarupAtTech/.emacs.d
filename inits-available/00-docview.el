@@ -1,5 +1,5 @@
-;;; 00-docview.el --- doc view
-;;; LAST UPDATE : 2023/08/15 18:24:10
+;;; 00-docview.el --- doc view  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:08:42
 ;;; Commentary:
 
 ;; http://d.hatena.ne.jp/kitokitoki/20101123/p2

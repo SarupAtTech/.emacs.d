@@ -1,5 +1,5 @@
-;;; 00-viper.el --- viper-mode
-;;; LAST UPDATE : 2023/08/16 01:59:28
+;;; 00-viper.el --- viper-mode  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:12:54
 ;;; Commentary:
 
 ;; http://keens.github.io/blog/2013/12/13/dot-emacs-clean-up/ 参考

@@ -1,5 +1,5 @@
-;;; 30-anzu.el --- anzu
-;;; LAST UPDATE : 2023/08/15 18:30:30
+;;; 30-anzu.el --- anzu  -*- lexical-binding: t; -*-
+;;; LAST UPDATE : 2026/10/09 10:13:19
 ;;; Commentary:
 
 ;;; Code:
